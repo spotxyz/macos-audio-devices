@@ -1,8 +1,8 @@
 {
-  "name": "macos-audio-devices",
-  "version": "1.3.3",
+  "name": "@spotxyz/macos-audio-devices",
+  "version": "1.5.0",
   "description": "Get, set and configure the audio devices on macOS",
-  "repository": "https://github.com/karaggeorge/macos-audio-devices",
+  "repository": "https://github.com/spotxyz/macos-audio-devices",
   "funding": "https://github.com/sponsors/karaggeorge",
   "author": {
     "name": "George Karagkiaouris",
@@ -19,6 +19,7 @@
     "index.d.ts",
     "audio-devices"
   ],
+  "types": "index.d.ts",
   "scripts": {
     "test": "xo && tsd",
     "build": "swift build --configuration=release --arch=arm64 --arch=x86_64 && mv .build/apple/Products/Release/audio-devices .",

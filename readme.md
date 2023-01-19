@@ -1,4 +1,4 @@
-# macos-audio-devices [![Actions Status](https://github.com/karaggeorge/macos-audio-devices/workflows/Node%20CI/badge.svg)](https://github.com/karaggeorge/macos-audio-devices/actions)
+# @spotxyz/macos-audio-devices
 
 > Get, set and configure the audio devices on macOS
 
@@ -9,13 +9,13 @@ Requires macOS 10.12 or later. macOS 10.13 or earlier needs to download the [Swi
 ### Using [npx](https://github.com/npm/npx)
 
 ```
-$ npx macos-audio-devices
+$ npx @spotxyz/macos-audio-devices
 ```
 
 ### Installing
 
 ```
-$ npm install -g macos-audio-devices
+$ npm install -g @spotxyz/macos-audio-devices
 $ audio-devices
 ```
 
@@ -42,13 +42,13 @@ Commands:
 ### Installation
 
 ```
-$ npm install macos-audio-devices
+$ npm install @spotxyz/macos-audio-devices
 ```
 
 ### Usage
 
 ```js
-const audioDevices = require('macos-audio-devices');
+const audioDevices = require('@spotxyz/macos-audio-devices');
 
 const outputDevices = audioDevices.getOutputDevices.sync();
 const targetDevice = outputDevices[0];
